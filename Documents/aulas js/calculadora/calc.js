@@ -39,10 +39,12 @@ function Especial(ope, n1, V=0) {
     return Res
 }
 //Values and Operation select
-const Escolha = 'Exponenciaçao'
-const V1 = 10
-const v2 = 5
-const Exp = 2
+
+const Escolha = 'Sua escolha'
+const V1 = null //sua escolha, substitua este valor
+const v2 = null//sua escolha, substitua este valor
+const Exp =  null //sua escolha, substitua este valor
+
 //Select operation
 if (Escolha == 'soma'||Escolha == 'subtraçao'||Escolha == 'divisao'||Escolha == 'multiplicaçao'){
     console.log('o resultado da operaçao: '+Escolha+' é: ' + Operacoes(Escolha, V1, v2))
